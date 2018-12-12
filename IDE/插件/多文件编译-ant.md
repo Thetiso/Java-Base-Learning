@@ -45,8 +45,12 @@
 ```
 - build.xml上右键Run as → ant_builder
 
+
+
 ## Problems
 #### 1. warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
 > solution: `<javac srcdir="${srcDir}" destdir="${binDir}" includeAntRuntime="false" />` 加上includeAntRuntime="false"
 #### 2. Java Ant Could not find the main class: org.eclipse.ant.internal.launching.remote.InternalAntRunner. Program
 > solution： Run as → External tools configuration… → JRE where the default was set to “Separate JDK”: jdk1.6.0_31 (I had set up JDKs 6-8 in Preferences after installing). I changed this to “run in the same JRE as the workspace” and now it works.
+#### 3. 引用jdk内部类报错
+![solution](../../images/2018-12-12_105425.png)
