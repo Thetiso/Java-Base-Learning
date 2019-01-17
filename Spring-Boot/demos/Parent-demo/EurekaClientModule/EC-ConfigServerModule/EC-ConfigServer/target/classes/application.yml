@@ -1,0 +1,20 @@
+server:
+  port: 8889
+
+spring:
+  application:
+    name: config-server
+  cloud: 
+    config: 
+      label: master
+      server: 
+        git:
+          searchPaths: Spring-Cloud/Config
+          uri: https://gitee.com/thetiso/Java-Base-Learning
+          username: 
+          password: 
+          
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

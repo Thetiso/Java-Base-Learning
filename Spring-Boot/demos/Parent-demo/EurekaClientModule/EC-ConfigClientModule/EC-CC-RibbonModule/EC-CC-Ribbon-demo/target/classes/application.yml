@@ -1,0 +1,12 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+server:
+  port: 8764
+spring:
+  application:
+    name: EC-CC-Ribbon-demo
+  jackson:
+    serialization:
+      FAIL_ON_EMPTY_BEANS: false

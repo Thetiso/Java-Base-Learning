@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: EC-CC-Ribbon-demo
+Implementation-Version: 1.0
+Built-By: efrei
+Implementation-Vendor-Id: com.efreight
+Build-Jdk: 1.8.0_181
+Implementation-URL: http://projects.spring.io/spring-boot/parent/Eurek
+ aClientModule/EC-ConfigClientModule/EC-CC-RibbonModule/EC-CC-Ribbon-d
+ emo/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
